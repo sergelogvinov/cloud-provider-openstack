@@ -909,7 +909,7 @@ func TestInstanceIDFromProviderID(t *testing.T) {
 	}
 
 	for _, test := range testCases {
-		instanceID, err := instanceIDFromProviderID(test.providerID)
+		instanceID, _, err := instanceIDFromProviderID(test.providerID)
 		if (err != nil) != test.fail {
 			t.Errorf("expected err: %t, got err: %v", test.fail, err)
 		}
