@@ -355,6 +355,8 @@ github.com/rogpeppe/go-internal v1.3.0/go.mod h1:M8bDsm7K2OlrFYOpmOWEs/qY81heoFR
 github.com/rogpeppe/go-internal v1.10.0 h1:TMyTOH3F/DB16zRVcYyreMH6GnZZrwQVAoYjRBZyWFQ=
 github.com/rogpeppe/go-internal v1.10.0/go.mod h1:UQnix2H7Ngw/k4C5ijL5+65zddjncjaFoBhdsK/akog=
 github.com/russross/blackfriday/v2 v2.1.0/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=
+github.com/sergelogvinov/cloud-provider v0.0.0-20240503161407-de4dc9a272fa h1:v/hPRsA7W8G2TF8OOESCEmoNbT/6ciJwNGkCtjyan+s=
+github.com/sergelogvinov/cloud-provider v0.0.0-20240503161407-de4dc9a272fa/go.mod h1:CNnRzKhw3VE9+/FncslFmplzS2jRV3Fv69s9qz8aEAU=
 github.com/sirupsen/logrus v1.9.0 h1:trlNQbNUG3OdDrDil03MCb1H2o9nJ1x4/5LYw7byDE0=
 github.com/sirupsen/logrus v1.9.0/go.mod h1:naHLuLoDiP4jHNo9R0sCBMtWGeIprob74mVsIT4qYEQ=
 github.com/soheilhy/cmux v0.1.5 h1:jjzc5WVemNEDTLwv9tlmemhC73tI08BNOIGwBOo10Js=
@@ -856,8 +858,6 @@ k8s.io/apiserver v0.30.0 h1:QCec+U72tMQ+9tR6A0sMBB5Vh6ImCEkoKkTDRABWq6M=
 k8s.io/apiserver v0.30.0/go.mod h1:smOIBq8t0MbKZi7O7SyIpjPsiKJ8qa+llcFCluKyqiY=
 k8s.io/client-go v0.30.0 h1:sB1AGGlhY/o7KCyCEQ0bPWzYDL0pwOZO4vAtTSh/gJQ=
 k8s.io/client-go v0.30.0/go.mod h1:g7li5O5256qe6TYdAMyX/otJqMhIiGgTapdLchhmOaY=
-k8s.io/cloud-provider v0.30.0 h1:hz1MXkFjsyO167sRZVchXEi2YYMQ6kolBi79nuICjzw=
-k8s.io/cloud-provider v0.30.0/go.mod h1:iyVcGvDfmZ7m5cliI9TTHj0VTjYDNpc/K71Gp6hukjU=
 k8s.io/component-base v0.30.0 h1:cj6bp38g0ainlfYtaOQuRELh5KSYjhKxM+io7AUIk4o=
 k8s.io/component-base v0.30.0/go.mod h1:V9x/0ePFNaKeKYA3bOvIbrNoluTSG+fSJKjLdjOoeXQ=
 k8s.io/component-helpers v0.30.0 h1:xbJtNCfSM4SB/Tz5JqCKDZv4eT5LVi/AWQ1VOxhmStU=

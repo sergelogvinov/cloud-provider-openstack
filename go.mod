@@ -2,6 +2,8 @@ module k8s.io/cloud-provider-openstack
 
 go 1.22.0
 
+replace k8s.io/cloud-provider v0.30.0 => github.com/sergelogvinov/cloud-provider v0.0.0-20240503161407-de4dc9a272fa
+
 require (
 	github.com/container-storage-interface/spec v1.8.0
 	github.com/go-chi/chi/v5 v5.0.8
