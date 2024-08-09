@@ -59,11 +59,11 @@ func NewIdentityServer(d *Driver) *identityServer {
 
 func NewNodeServer(d *Driver, mount mount.IMount, metadata metadata.IMetadata, cloud openstack.IOpenStack, topologies map[string]string) *nodeServer {
 	return &nodeServer{
-		Driver:     d,
-		Mount:      mount,
-		Metadata:   metadata,
-		Cloud:      cloud,
-		Topologies: topologies,
+		Driver:       d,
+		Mount:        mount,
+		Metadata:     metadata,
+		BlockStorage: cloud.GetBlockStorageOpts(),
+		Topologies:   topologies,
 	}
 }
 

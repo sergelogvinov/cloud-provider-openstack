@@ -206,6 +206,10 @@ func CreateOpenStackProvider(cloudName string) (IOpenStack, error) {
 		cfg.Metadata.SearchOrder = fmt.Sprintf("%s,%s", metadata.ConfigDriveID, metadata.MetadataID)
 	}
 
+	if cfg.BlockStorage.NodeVolumeAttachLimit < 0 || cfg.BlockStorage.NodeVolumeAttachLimit > 256 {
+		cfg.BlockStorage.NodeVolumeAttachLimit = defaultMaxVolAttachLimit
+	}
+
 	// Init OpenStack
 	OsInstances[cloudName] = &OpenStack{
 		compute:      computeclient,
